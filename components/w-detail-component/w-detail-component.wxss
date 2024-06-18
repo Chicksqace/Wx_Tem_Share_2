@@ -1,0 +1,80 @@
+/* components/w-detail-component/w-detail-component.wxss */
+.movie-card-view {
+  margin: 10rpx 20rpx;
+}
+
+.movie-detail-container {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 28rpx;
+}
+
+.movie-image {
+  width: 298rpx;
+  height: 370rpx;
+  margin-right: 30rpx;
+}
+
+.movie-title-h1 {
+  font-size: 35rpx;
+}
+
+.location {
+  margin: 10rpx 0;
+  color: #808080;
+}
+
+.to-star-item {
+  padding-right: 10rpx;
+}
+
+.title-block-item {
+  text-align: center;
+  display: inline-block;
+  background-color: #F71371;
+  color: #ffffff;
+  font-size: 30rpx;
+  padding: 2rpx 14rpx;
+  margin-right: 16rpx;
+  border-radius: 10rpx;
+}
+
+.title-block-item:last-child {
+  margin-right: 0;
+}
+
+.star-image-item {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.score-view {
+  position: relative;
+  margin-top: 20rpx;
+}
+
+.scort-text-desc {
+  position: absolute;
+  top: 6rpx;
+  right: 65rpx;
+  color: #F71371;
+}
+
+.right-content-view {
+  width: 100%;
+  position: relative;
+}
+
+.release-time-view {
+  margin: 4rpx 0;
+  color: #808080;
+}
+
+.buy-tickets-btn {
+  position: absolute;
+  top: 5rpx;
+  right: 0rpx;
+  color: #ffffff;
+  font-size: 40rpx;
+  background-color: #38c566;
+}

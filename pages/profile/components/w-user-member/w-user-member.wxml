@@ -1,0 +1,14 @@
+<!--pages/profile/components/v-user-member/v-user-member.wxml-->
+<view class="member-center-view">
+    <view class="member-item">
+      <image src="{{personalCenter.iconUrl}}" class="member-image"></image>
+      <view class="member-text-view">
+        <text class="member-center-text">{{personalCenter.content}}</text>
+        <text class="member-center-desc">{{personalCenter.contentDetail}}</text>
+      </view>
+    </view>
+    <view class="member-item">
+      <text class="member-right-text">{{personalCenter.rightText}}</text>
+      <image src="{{personalCenter.rightIcon}}" class="right_icon"></image>
+    </view>
+  </view>

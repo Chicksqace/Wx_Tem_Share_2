@@ -1,0 +1,46 @@
+/* pages/profile/components/v-user-member/v-user-member.wxss */
+
+.member-center-view {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130rpx;
+  /* margin: 0 20rpx; */
+  padding: 0 20rpx;
+  background-color: #333333;
+}
+
+.member-image {
+  width: 45rpx;
+  height: 43rpx;
+}
+
+.right_icon {
+  width: 18rpx;
+  height: 35rpx;
+  vertical-align: middle;
+}
+
+.member-right-text {
+  font-size: 30rpx;
+  position: absolute;
+  top: 47rpx;
+  right: 52rpx;
+}
+
+.member-text-view {
+  display: flex;
+  flex-flow: column nowrap;
+  position: absolute;
+  top: 18rpx;
+  left: 80rpx;
+}
+
+.member-center-text {
+  margin-bottom: 8rpx;
+}
+
+.member-center-desc {
+  font-size: 24rpx;
+}

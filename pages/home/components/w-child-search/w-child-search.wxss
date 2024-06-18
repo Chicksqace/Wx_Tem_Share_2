@@ -1,0 +1,61 @@
+/* pages/home/components/w-child-search.wxss */
+.city-selection-view {
+  color: #ffffff;
+  position: absolute;
+  top: 28rpx;
+  left: 30rpx;
+  width: 70rpx;
+  height: 40rpx;
+}
+.down-icon-view {
+  position: absolute;
+  top: 0rpx;
+  left:72rpx;
+  z-index: 2;
+}
+.drow-icon-image {
+  width: 20rpx;
+  height: 15rpx;
+}
+.search-bar-view {
+  position: relative;
+  width: 100%;
+  height: 80rpx;
+}
+.search-image-view {
+  position: absolute;
+  top: 26rpx;
+  left: 175rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.search-icon-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.input {
+  box-sizing: border-box;
+  position: absolute;
+  top: 10rpx;
+  left: 20%;
+  width: 500rpx;
+  height: 40px;
+  border-radius: 20px;
+  color: #ffffff;
+  border: none;
+  background-color: #444242;
+  padding-left:40px;
+  padding-right: 20px;
+}
+.scan-code-view {
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  height: 40rpx;
+  width: 40rpx;
+}
+.scan-icon-image {
+  height: 100%;
+  width: 100%;
+}

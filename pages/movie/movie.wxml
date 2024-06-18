@@ -1,0 +1,10 @@
+<!--pages/movie/movie.wxml-->
+<!-- 整体盒子 -->
+ <!-- 头部搜索栏 -->
+ <view class="movie-container-view">
+   <w-header-component model:header-items="{{tapControlItem}}" bind:handlerTabControlEvent="tabControlEvent"></w-header-component>
+  <!-- 统计条 -->
+  <w-child-total></w-child-total>
+  <!-- 电影栏目 -->
+  <w-detail-component model:detail-items="{{detailItems[currentIndex].list}}"></w-detail-component>
+</view>

@@ -1,0 +1,67 @@
+/* pages/profile/components/w-user-order/w-user-order.wxss */
+
+.order-container {
+  height: 400rpx;
+  margin: 20rpx 0;
+  padding: 20rpx;
+  background-color: #333333;
+}
+
+.order-icon {
+  width: 45rpx;
+  height: 35rpx;
+  vertical-align: middle;
+}
+
+.right-icon {
+  width: 18rpx;
+  height: 35rpx;
+  vertical-align: middle;
+}
+
+.order-text {
+  margin-left: 20rpx;
+
+}
+.menu-title {
+  font-size: 24rpx;
+}
+
+.order-title-column {
+  display: flex;
+  justify-content: space-between;
+  height: 65rpx;
+}
+
+.order-menu-column {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.menu-item {
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 160rpx;
+}
+
+.item-menu-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.item-icon-view {
+  position: relative;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background-color: #ffffff;
+  margin-bottom: 10rpx;
+}

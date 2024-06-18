@@ -1,0 +1,11 @@
+<!--components/w-nav-component/w-nav-component.wxml-->
+<view class="nav-container">
+  <view class="nav-container-view">
+    <block wx:for="{{navItems}}" wx:key="index">
+      <view class="nav-item">
+        <text>{{item.title}}</text>
+        <image src="{{item.imageUrl}}" class="nav-option-image"></image>
+      </view>
+    </block>
+    </view>
+</view>

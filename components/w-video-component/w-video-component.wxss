@@ -1,0 +1,35 @@
+/* components/w-video-component/w-video-component.wxss */
+.video {
+  width: 100%;
+}
+
+.video-footer-view {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10rpx;
+}
+
+.footer-item {
+  /* flex: 1; */
+  text-align: center;
+
+}
+
+.head-image {
+  margin: 0 5rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+}
+
+.like-image {
+  vertical-align: middle;
+  padding-right: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.alignment {
+  margin-right: 5rpx;
+  padding-top: 12rpx;
+}

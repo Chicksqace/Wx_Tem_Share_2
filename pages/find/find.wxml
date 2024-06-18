@@ -1,0 +1,14 @@
+<!--pages/find/find.wxml-->
+<view class="page-body">
+  <!-- 头部 -->
+  <view class="header-component-view">
+    <w-header-component model:header-items="{{headerItems}}"></w-header-component>
+  </view>
+  <!-- 导航栏 -->
+  <w-nav-component model:nav-items="{{navItems}}"></w-nav-component>
+  <!-- 广告图 -->
+  <view class="banner-container-view">
+    <image src="../../assets/images/banner/ad_2.png" class="banner-image"></image>
+  </view>
+  <w-video-component model:video-items="{{videoItems}}"></w-video-component>
+</view>

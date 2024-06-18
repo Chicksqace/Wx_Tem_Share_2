@@ -1,0 +1,34 @@
+/* components/w-top-nav/w-top-nav.wxss */
+.left-down-image {
+  padding-left: 10rpx;
+  width: 20rpx;
+  height: 15rpx;
+}
+.city-text-h2 {
+  color: #ffffff;
+}
+.tab-control-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+
+.center-tab-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-tab-view .center-tab-item {
+  font-size: 36rpx;
+  padding: 0 20rpx;
+}
+
+.right-search-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 8rpx;
+}
+
+.active {
+  color: #f73171;
+}

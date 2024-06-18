@@ -1,0 +1,17 @@
+<!--pages/home/components/w-child-scroll/w-child-scroll.wxml-->
+<view class="scroll-view-container">
+  <scroll-view scroll-x="true" :scroll-into-view="a" class="scroll-view">
+    <block wx:for="{{scrollItem}}" wx:key="id">
+      <view class="tab-container">
+        <image src="{{item.imageUrl}}" class="tab-item-image"></image>
+        <view class="tab-title-view">
+          <h4 class="title-text">{{item.text}}</h4>
+          <text class="title-date">{{item.dateDesc}}</text>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+  <view class="see-more-view">
+    <h2 class="see-more-titlt">查看更多(30部)></h2>
+  </view>
+</view>

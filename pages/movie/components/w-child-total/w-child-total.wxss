@@ -1,0 +1,44 @@
+/* pages/movie/components/w-child-total/w-child-total.wxss */
+.total-title-view {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  padding: 20rpx 10rpx 20rpx 55rpx;
+  margin: 20rpx 0 30rpx 0;
+}
+
+.polygon-image {
+  width: 20rpx;
+  height: 20rpx;
+  padding-left: 5rpx;
+}
+
+.data-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.box-office-text,
+.release-date-text,
+.today-inven-text,
+.data-volume-text {
+  color: #ffffff;
+  margin: 0 10rpx;
+}
+
+.right-total-container {
+  margin-top: 2rpx;
+}
+
+.left-total-container .release-date-text {
+  font-size: 32rpx;
+}
+
+.right-total-container .data-volume-text {
+  color: #f73171;
+}

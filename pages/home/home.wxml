@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+  <!-- 头部搜索栏 -->
+  <w-child-search></w-child-search>
+  <!-- 轮播图 -->
+  <w-swiper-component model:swiper-data="{{swiperData}}"></w-swiper-component>
+  <!-- 选项卡 -->
+  <w-tab-control model:titles="{{titles}}" bind:switchItem="switchItemEvent"></w-tab-control>
+  <!-- 选项卡菜单 -->
+  <w-child-scroll model:scroll-item="{{movieColumn[currentType].list}}"></w-child-scroll>
+  <!-- 影院卡片 -->
+  <w-card-component model:movie-card-data="{{movieCardData}}"></w-card-component>

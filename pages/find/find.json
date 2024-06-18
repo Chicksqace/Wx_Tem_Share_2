@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "w-header-component": "../../components/w-header-component/w-header-component",
+    "w-nav-component": "../../components/w-nav-component/w-nav-component",
+    "w-card-component": "../../components/w-card-component/w-card-component",
+    "w-video-component": "../../components/w-video-component/w-video-component"
+  }
+}

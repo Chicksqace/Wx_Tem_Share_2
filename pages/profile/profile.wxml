@@ -1,0 +1,16 @@
+<!--pages/profile/profile.wxml-->
+<view class="page-body">
+  <!-- 顶部nav -->
+  <w-top-nav></w-top-nav>
+  <!-- 个人信息 -->
+  <w-user-detail model:profile="{{profile}}"></w-user-detail>
+  <!-- 会员中心 -->
+  <w-user-member model:personal-center="{{personalCenter}}"></w-user-member>
+  <!-- 我的订单 -->
+  <w-user-order model:menu-items="{{menuItems}}"></w-user-order>
+  <!-- column -->
+  <w-menu-list model:menu-cloumn-list="{{menuCloumnList}}"></w-menu-list>
+
+
+  <!-- end -->
+</view>

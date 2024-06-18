@@ -1,0 +1,135 @@
+/* components/w-card-component/w-card-component.wxss */
+.movie-card-container {
+  /* width: 100%; */
+  margin:20rpx;
+  background-color: #333333;
+}
+.movie-card-container:first-child {
+  margin-top: 20rpx;
+}
+.movie-card-title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #262525;
+}
+
+.title-text-desc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 60rpx;
+  color: #ffffff;
+}
+
+.title-card-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 18rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.title-item-container {
+
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 20rpx;
+}
+
+/* title 下面 */
+.movie-location-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 10rpx 0 15rpx 20rpx;
+}
+
+.location-pop-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 160rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.location-pop-desc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20rpx;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.address-det-text {
+  color: #ffffff;
+  padding: 20rpx;
+}
+
+.title-block-container {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 0 20rpx 15rpx;
+}
+
+.coloe-block-item {
+  display: inline-block;
+  margin: 0 5rpx;
+  color: #ffffff;
+  padding: 5rpx 10rpx;
+  border-radius: 10rpx;
+}
+
+.title-block-container .coloe-block-item:first-child {
+  background-color: #FBC216;
+}
+
+.title-block-container .coloe-block-item:nth-child(2) {
+  background-color: #A05Bf6;
+}
+
+.title-block-container .coloe-block-item:nth-child(3) {
+  background-color: #38C566;
+}
+
+.title-block-container .coloe-block-item:nth-child(4) {
+  background-color: #21C3F8;
+}
+
+.footer-block-container {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 0 20rpx 15rpx;
+}
+
+.group-buy-item {
+  display: inline-block;
+  margin: 0 5rpx;
+  font-size: 15px;
+}
+
+.group-buy-item:first-child {
+  margin-left: 0;
+  padding: 0 4rpx;
+  background-color: #38C566;
+}
+
+.group-buy-item:nth-child(3) {
+  padding: 0 4rpx;
+  background-color: #A05Bf6;
+}
+
+.group-buy-item:nth-child(4) {
+  margin-left: 0;
+}
+
+.price-text .text {
+  color: #f73171;
+}

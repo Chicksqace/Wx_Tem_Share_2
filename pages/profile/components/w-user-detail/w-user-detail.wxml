@@ -1,0 +1,26 @@
+<!--pages/profile/components/v-user-detail/v-user-detail.wxml-->
+<view class="profile-detail-view">
+  <view class="detail-upper-region regin-flex">
+    <view class="user-head-portrait">
+      <image src="{{profile.userAvatarUrl}}" class="head-portrait"></image>
+    </view>
+    <view class="user-detail-view">
+      <view class="user-name regin-flex">
+        <h1 class="name-h">{{profile.userName}}</h1>
+        <image src="{{profile.membershipLevelImageUrl}}" class="crown-icon"></image>
+      </view>
+      <view class="user-integral-member regin-flex">
+        <h2 class="integral-h">{{profile.membershipLevel}}</h2>
+        <h2 class="member-h">{{'积分'+ profile.integral}}</h2>
+      </view>
+    </view>
+  </view>
+  <view class="detail-bottom-regin regin-flex after">
+    <block wx:for="{{profile.summary}}" wx:key="index">
+      <view class="bottom-item regin-flex after-element">
+        <text class="text-desc">{{item.total}}</text>
+        <text class="text-desc">{{item.text}}</text>
+      </view>
+    </block>
+  </view>
+</view>

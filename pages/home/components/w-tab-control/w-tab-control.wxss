@@ -1,0 +1,20 @@
+/* pages/home/components/w-tab-control/w-tab-control.wxss */
+.tab-control-view {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 40rpx;
+}
+
+.tab-item {
+  flex: 1;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+
+.active {
+  color: #f73171;
+}

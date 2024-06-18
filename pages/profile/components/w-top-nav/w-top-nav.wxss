@@ -1,0 +1,12 @@
+/* pages/profile/components/v-top-nav/v-top-nav.wxss */
+.heade-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 20rpx;
+}
+.icon-image {
+  vertical-align: middle;
+  width: 40rpx;
+  height: 40rpx;
+}

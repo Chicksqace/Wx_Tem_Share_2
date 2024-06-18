@@ -1,0 +1,15 @@
+<!--components/w-top-nav/w-top-nav.wxml-->
+<view class="tab-control-container">
+    <view class="left-city-view">
+      <h2 class="city-text-h2">天津</h2>
+      <image src="../../assets/images/searchbar/down_icon.png" class="left-down-image"></image>
+    </view>
+    <view class="center-tab-view">
+      <block wx:for="{{headerItems}}" wx:key="index">
+        <view class="center-tab-item {{index === currentIndex ? 'active' : ''}}" bindtap="tabClick" data-index="{{index}}">{{item}}</view>
+      </block>
+    </view>
+    <view class="right-search-view">
+      <image src="../../assets/images/searchbar/search_icon.png" class="right-search-image"></image>
+    </view>
+  </view>

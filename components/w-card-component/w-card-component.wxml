@@ -1,0 +1,44 @@
+<!--components/w-card-component/w-card-component.wxml-->
+<block wx:for="{{movieCardData}}" wx:key="index">
+  <view class="movie-card-container">
+    <!-- title -->
+    <view class="movie-card-title">
+      <view class="title-item-container">
+        <image src="{{item.gloryLableImageUrl}}" class="title-card-image"></image>
+        <h2 class="title-text-desc">{{item.movieTitle}}</h2>
+      </view>
+      <view class="title-item-container">查看全部</view>
+    </view>
+    <!-- 影院地址 -->
+    <view class="movie-location-container">
+      <view class="location-item">
+        <text>{{item.addresTitle}}</text>
+      </view>
+      <view class="location-item">
+        <image src="{{item.proLableImageUrl}}" class="location-pop-image"></image>
+        <h2 class="location-pop-desc">{{item.popTitle}}</h2>
+      </view>
+    </view>
+    <view class="address-det-text">{{item.addresDetail}}</view>
+    <!-- 彩色小块 -->
+    <view class="title-block-container">
+      <view class="color-block-view">
+        <h4 class="coloe-block-item">{{item.shopTitle1}}</h4>
+        <h4 class="coloe-block-item">{{item.shopTitle2}}</h4>
+        <h4 class="coloe-block-item">{{item.shopTitle3}}</h4>
+        <h4 class="coloe-block-item">{{item.shopTitle4}}</h4>
+      </view>
+      <view>{{item.distanse}}</view>
+    </view>
+    <!-- 团购  优惠 -->
+    <view class="footer-block-container">
+      <view class="group-buy-view">
+        <h6 class="group-buy-item">卡</h6>
+        <h6 class="group-buy-item">{{item.discount1}}</h6>
+        <h6 class="group-buy-item">团</h6>
+        <h6 class="group-buy-item">{{item.discount2}}</h6>
+      </view>
+      <view class="price-text"><text class="text">{{item.price}}</text></view>
+    </view>
+  </view>
+</block>

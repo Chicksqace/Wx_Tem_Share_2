@@ -1,0 +1,15 @@
+<!--pages/movie/components/w-child-total/w-child-total.wxml-->
+<view class="total-title-view">
+  <view class="left-total-container">
+    <image src="../../../../assets/images/searchbar/data_icon.png" class="data-image"></image>
+    <text class="box-office-text">实时票房</text>
+    <text class="release-date-text">2020-10-22</text>
+  </view>
+  <view class="right-total-container">
+    <text class="today-inven-text">今日大盘</text>
+    <text class="data-volume-text">2918万</text>
+    <image src="../../../../assets/images/searchbar/polygon_icon.png" class="polygon-image"></image>
+  </view>
+</view>
+
+

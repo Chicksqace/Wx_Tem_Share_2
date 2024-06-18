@@ -1,0 +1,16 @@
+<!--pages/home/components/w-child-search.wxml-->
+<view class="city-selection-view">
+    <text class="city-text">天津</text>
+    <view class="down-icon-view">
+      <image src="../../../../assets/images/searchbar/down_icon.png" class="drow-icon-image"></image>
+    </view>
+  </view>
+  <view class="search-bar-view">
+    <input type="text" class="input" placeholder="请输入电影、电影院" />
+    <view class="search-image-view">
+      <image src="../../../../assets/images/searchbar/search_icon.png" class="search-icon-image" />
+    </view>
+  </view>
+  <view class="scan-code-view">
+    <image src="../../../../assets/images/searchbar/scan_icon.png" class="scan-icon-image"></image>
+  </view>

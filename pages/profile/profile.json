@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "w-top-nav": "../profile/components/w-top-nav/w-top-nav",
+    "w-user-detail": "../profile/components/w-user-detail/w-user-detail",
+    "w-user-member": "../profile/components/w-user-member/w-user-member",
+    "w-user-order": "../profile/components/w-user-order/w-user-order",
+    "w-menu-list": "../profile/components/w-menu-list/w-menu-list"
+  }
+}

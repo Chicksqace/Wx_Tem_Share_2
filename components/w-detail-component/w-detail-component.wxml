@@ -1,0 +1,41 @@
+<!--components/w-detail-component/w-detail-component.wxml-->
+<block wx:for="{{detailItems}}" wx:key="index">
+  <view class="movie-card-view">
+    <view class="movie-detail-container">
+      <view class="left-image-view">
+        <image src="{{item.movieImageUrl}}" class="movie-image"></image>
+      </view>
+      <view class="right-content-view">
+        <view class="movie-title-view">
+          <h1 class="movie-title-h1">{{item.movieTitle}}</h1>
+          <button class="buy-tickets-btn" size="mini">购票</button>
+        </view>
+        <view class="director-title-view location">
+          <text>导演：</text>
+          <text class="director-text-title">{{item.director}}</text>
+        </view>
+        <view class="to-star-view location">
+          <text>主演：</text>
+          <block wx:for="{{item.toStars}}" wx:key="index" wx:for-item="starItem">
+            <text class="to-star-item">{{starItem}}</text>
+          </block>
+        </view>
+        <view class="titlle-block-view location">
+          <block wx:for="{{item.blocktitles}}" wx:for-item="blockitem" wx:key="index">
+            <text class="title-block-item">{{blockitem}}</text>
+          </block>
+        </view>
+        <view class="score-view ">
+          <block wx:for="{{item.scortItems}}" wx:for-item="imageItem" wx:key="index">
+            <image src="{{imageItem}}" class="star-image-item"></image>
+          </block>
+          <text class="scort-text-desc">{{item.scoreText}}</text>
+        </view>
+        <view class="release-time-view">
+          上映时间：
+          <text>{{item.releaseTime}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</block>

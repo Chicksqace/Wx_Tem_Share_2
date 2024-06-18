@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/movie/movie",
+    "pages/cinema/cinema",
+    "pages/find/find",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundColor": "#030000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTitleText": "万达电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#333",
+    "color": "#fff",
+    "selectedColor": "#F73171",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./assets/images/tabbar/home_n_icon.png",
+        "selectedIconPath": "./assets/images/tabbar/home_a_icon.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "./assets/images/tabbar/movie_n_icon.png",
+        "selectedIconPath": "./assets/images/tabbar/movie_a_icon.png"
+      },
+      {
+        "pagePath": "pages/cinema/cinema",
+        "text": "电影院",
+        "iconPath": "./assets/images/tabbar/cinema_n_icon.png",
+        "selectedIconPath": "./assets/images/tabbar/cinema_a_icon.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "./assets/images/tabbar/find_n_icon.png",
+        "selectedIconPath": "./assets/images/tabbar/find_a_icon.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "./assets/images/tabbar/mine_n_icon.png",
+        "selectedIconPath": "./assets/images/tabbar/mine_a_icon.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

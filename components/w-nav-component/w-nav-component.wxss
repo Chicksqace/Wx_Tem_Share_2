@@ -1,0 +1,14 @@
+/* components/w-nav-component/w-nav-component.wxss */
+.nav-container-view {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20rpx;
+  background-color: #333333;
+  padding: 20rpx 0;
+}
+.nav-option-image {
+  vertical-align: middle;
+  width: 20rpx;
+  height: 20rpx;
+  margin-left:10rpx;
+}

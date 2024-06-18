@@ -1,0 +1,24 @@
+<!--pages/profile/components/w-user-order/w-user-order.wxml-->
+<view class="order-container">
+    <!-- 上面start -->
+    <view class="order-title-column">
+      <view class="left-content">
+        <image src="../../../../assets/images/comment-map/order_icon.png" class="order-icon"></image>
+        <text class="order-text">我的订单</text>
+      </view>
+      <view class="right-icon">
+        <image src="../../../../assets/images/comment-map/right_icon.png" class="right-icon"></image>
+      </view>
+    </view>
+    <!-- 菜单列表 -->
+    <view class="order-menu-column">
+      <block wx:for="{{menuItems}}" wx:key="index">
+        <view class="menu-item">
+          <view class="item-icon-view">
+            <image src="{{item.menuIcon}}" class="item-menu-icon"></image>
+          </view>
+          <text class="menu-title">{{item.menuTitle}}</text>
+        </view>
+      </block>
+    </view>
+  </view>

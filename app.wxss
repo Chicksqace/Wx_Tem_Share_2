@@ -1,0 +1,12 @@
+/**app.wxss**/
+page {
+  background-color: #030000;
+  color: #ffffff;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

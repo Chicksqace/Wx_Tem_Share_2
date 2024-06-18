@@ -1,0 +1,45 @@
+/* pages/home/components/w-child-scroll/w-child-scroll.wxss */
+.scroll-view-container {
+  margin-top: 40rpx;
+  width: 100%;
+}
+.scroll-view {
+  width: 100%;
+  height: 455rpx;
+  white-space: nowrap;
+}
+
+.tab-container {
+  display: inline-block;
+  margin: 0 10rpx;
+  width: 270rpx;
+  height: 100%;
+}
+.tab-container:first-child {
+  margin-left: 20rpx ;
+}
+.tab-container:last-child {
+  margin-right: 20rpx ;
+}
+.tab-item-image {
+  width: 100%;
+  height: 360rpx;
+}
+.tab-title-view .title-text {
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  margin: 5rpx 0;
+}
+.tab-title-view .title-date {
+  color: #808080;
+  text-align: left;
+}
+.see-more-view {
+ margin: 25rpx 0;
+ text-align: center;
+}
+.see-more-titlt {
+  font-weight: 600;
+color: #ffffff;
+}

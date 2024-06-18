@@ -1,0 +1,11 @@
+/* pages/cinema/cinema.wxss */
+
+.banner-container-view {
+  /* width: 100%; */
+  height: 220rpx;
+  margin: 20rpx ;
+}
+.banner-container-view .banner-image{
+  width: 100%;
+  height: 100%;
+}

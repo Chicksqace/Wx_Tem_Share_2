@@ -1,0 +1,15 @@
+<!--pages/profile/components/v-top-nav/v-top-nav.wxml-->
+
+<view class="top-header-view">
+    <view class="heade-container">
+      <view class="header-item">
+        <image src="../../../../assets/images/searchbar/scan_icon.png" class="icon-image"></image>
+      </view>
+      <view class="header-item">
+        <text>个人中心</text>
+      </view>
+      <view class="header-item">
+        <image src="../../../../assets/images/comment-map/evaluate_2_icon.png" class="icon-image"></image>
+      </view>
+    </view>
+  </view>

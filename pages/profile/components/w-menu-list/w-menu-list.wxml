@@ -1,0 +1,14 @@
+<!--pages/profile/components/w-menu-list/w-menu-list.wxml-->
+<view class="menu-list">
+  <block wx:for="{{menuCloumnList}}" wx:key="id">
+    <view class="menu-list-view">
+      <view class="left">
+        <image src="{{item.cloumnIcon}}" class="menu-list-icon"></image>
+        <text>{{item.cloumnTitle}}</text>
+      </view>
+      <view class="right">
+        <image src="../../../../assets/images/comment-map/right_icon.png" class="right-icon"></image>
+      </view>
+    </view>
+  </block>
+</view>

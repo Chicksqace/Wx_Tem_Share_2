@@ -1,0 +1,27 @@
+/* pages/profile/components/w-menu-list/w-menu-list.wxss */
+.menu-list {
+  margin-bottom: 20rpx;
+}
+.menu-list-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  background-color: #333333;
+  height: 60rpx;
+  border-bottom: 1rpx solid #030000;
+}
+.menu-list-view:last-child {
+  border-bottom: none;
+}
+.menu-list-icon {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: bottom;  
+  margin-right: 20rpx;
+}
+.right-icon {
+  width: 18rpx;
+  height: 35rpx;
+  vertical-align: middle;
+}

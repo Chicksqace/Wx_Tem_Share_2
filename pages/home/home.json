@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "w-card-component": "../../components/w-card-component/w-card-component",
+    "w-child-search": "../home/components/w-child-search/w-child-search",
+    "w-swiper-component": "../../components/w-swiper-component/w-swiper-component",
+    "w-tab-control": "../home/components/w-tab-control/w-tab-control",
+    "w-child-scroll": "../home/components/w-child-scroll/w-child-scroll"
+   
+  }
+}

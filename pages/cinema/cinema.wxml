@@ -1,0 +1,14 @@
+<!--pages/cinema/cinema.wxml-->
+<view class="cinema-container-view">
+  <!-- 头部 -->
+    <w-header-component model:header-items="{{headerItems}}"></w-header-component>
+  <!-- 导航栏 -->
+  <w-nav-component model:nav-items="{{navItems}}"></w-nav-component>
+  <!-- 广告图 -->
+  <view class="banner-container-view">
+    <image src="../../assets/images/banner/ad_1.png" class="banner-image"></image>
+  </view>
+  <!-- 电影卡片 -->
+  <w-card-component model:movie-card-data="{{movieCardData}}"></w-card-component>
+
+</view>

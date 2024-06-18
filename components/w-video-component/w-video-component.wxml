@@ -1,0 +1,33 @@
+<!--components/w-video-component/w-video-component.wxml-->
+<block wx:for="{{videoItems}}" wx:key="index">
+  <view class="video-container-view">
+    <video class="video" src="{{item.videoPath}}" 
+      binderror="videoErrorCallback" 
+      enable-play-gesture 
+      show-mute-btn controls
+      enable-auto-rotation 
+      controls
+      poster="{{item.posterPath}}"
+      title="{{item.title}}">
+    </video>
+  </view>
+  <view class="video-footer-view">
+    <view class="footer-item">
+      <block wx:for="{{item.headPhotos}}" wx:key="index" wx:for-item="photoItem">
+        <image src="{{photoItem}}" class="head-image"></image>
+      </block>
+    </view>
+    <view class="footer-item alignment">
+      <image src="{{item.likeIcon}}" class="like-image"></image>
+      <text>{{item.likeTitle}}</text>
+    </view>
+    <view class="footer-item alignment">
+      <image src="{{item.shareIcon}}" class="like-image"></image>
+      <text>{{item.shareTitle}}</text>
+    </view>
+    <view class="footer-item alignment">
+      <image src="{{item.alignmentIcon}}" class="like-image"></image>
+      <text>{{item.alignmentTitle}}</text>
+    </view>
+  </view>
+  </block>
